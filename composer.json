@@ -1,0 +1,21 @@
+{
+    "name": "eklundkristoffer/querify",
+    "authors": [
+        {
+            "name": "Kristoffer Eklund",
+            "email": "eklukris@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eklundkristoffer\\Querify\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eklundkristoffer\\Querify\\QuerifyServiceProvider"
+            ]
+        }
+    }
+}
